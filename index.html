@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js" defer></script>
+</head>
+<body>
+   
+    <dev class="container"> 
+        <button id="theme-switch" class="theme-switch">
+            <img class="img1" src="picture/animated/day.svg" height="35px" >
+            <img class="img2" src="picture/animated/night.svg" height="35px"  >
+        </button>
+        <form class="searchForm">
+            <input type="text" id="cityInput" class="input" placeholder="Entre the City.">
+            <button id="submit" class="submit">Search</button>
+        </form>
+        <div id="error-message" class="error-hidden">City Not Found !</div>
+        <p class="city">--</p>
+        <p class="temp">--°C</p>
+        <img class="img" src="picture/animated/weather.svg">
+        <p class="description">----</p>
+        <dev class="box">
+            <dev class="boxhumidity">
+                    <img class="imghumdity" src="picture/humidity-Ani.png" >
+                    <p class="humidity">-- %</p>
+                    <p>Humidity</p>
+            </dev>
+            <dev class="boxwind">
+                <img class="imgwind" src="picture/wind.png">
+                <p class="wind">-- km/h</p>
+                <p>Wind</p>
+            </dev>
+        </dev>
+    </dev>
+</body>
+</html>
